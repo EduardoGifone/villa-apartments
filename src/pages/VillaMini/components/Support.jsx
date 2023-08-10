@@ -1,11 +1,9 @@
-import React from 'react';
 
 import salaImg from '../assets/VillaMini/photo02.jpg'
 import cocinaImg from '../assets/VillaMini/photo03.jpg'
 import comedorImg from '../assets/VillaMini/photo04.jpg'
 import habi01Img from '../assets/VillaMini/photo05.jpg'
 import habi02Img from '../assets/VillaMini/photo06.jpg'
-// import habi03Img from '../assets/VillaMini/photo08.jpg'
 
 const Support = () => {
   return (
@@ -24,7 +22,7 @@ const Support = () => {
 
           <div className='grid relative gap-x-8 gap-y-10 px-4 pt-12 sm:pt-20 text-black'>
               <div className='bg-white rounded-xl shadow-2xl'>
-                  <div className='p-8 flex gap-5 items-center'>
+                  <div className='p-8 flex max-md:flex-col gap-5 items-center'>
                     <div className='flex flex-col items-center'>
                         <img className='rounded-xl max-w-xs' src={salaImg} alt="/" />
                         <h3 className='font-bold text-2xl mt-2'>Sala</h3>
@@ -34,7 +32,7 @@ const Support = () => {
               </div>
               
               <div className='bg-white rounded-xl shadow-2xl'>
-                  <div className='p-8 flex flex-row-reverse gap-5 items-center'>
+                  <div className='p-8 flex flex-row-reverse max-md:flex-col gap-5 items-center'>
                     <div className='flex flex-col items-center'>
                         <img className='rounded-xl max-w-xs' src={cocinaImg} alt="/" />
                         <h3 className='font-bold text-2xl mt-2'>Cocina</h3>
@@ -44,7 +42,7 @@ const Support = () => {
               </div>
 
               <div className='bg-white rounded-xl shadow-2xl'>
-                  <div className='p-8 flex gap-5 items-center'>
+                  <div className='p-8 flex max-md:flex-col gap-5 items-center'>
                     <div className='flex flex-col items-center'>
                         <img className='rounded-xl max-w-xs' src={comedorImg} alt="/" />
                         <h3 className='font-bold text-2xl mt-2'>Comedor</h3>
@@ -54,7 +52,7 @@ const Support = () => {
               </div>
 
               <div className='bg-white rounded-xl shadow-2xl'>
-                  <div className='p-8 flex flex-row-reverse gap-5 items-center'>
+                  <div className='p-8 flex flex-row-reverse max-md:flex-col gap-5 items-center'>
                     <div className='flex flex-col items-center'>
                         <img className='rounded-xl max-w-xs' src={habi01Img} alt="/" />
                         <h3 className='font-bold text-2xl mt-2'>Habitacion principal</h3>
@@ -64,7 +62,7 @@ const Support = () => {
               </div>
 
               <div className='bg-white rounded-xl shadow-2xl'>
-                  <div className='p-8 flex gap-5 items-center'>
+                  <div className='p-8 flex max-md:flex-col gap-5 items-center'>
                     <div className='flex flex-col items-center'>
                         <img className='rounded-xl max-w-xs' src={habi02Img} alt="/" />
                         <h3 className='font-bold text-2xl mt-2'>Habitacion secundaria</h3>

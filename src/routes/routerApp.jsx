@@ -1,10 +1,14 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from "../App";
 import VillaGrande from "@/pages/VillaGrande";
 import VillaMini from "@/pages/VillaMini";
 import Recomendaciones from "@/pages/Recomendaciones";
+import App from "@/App";
 
 const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
   {
     path: "/villaGrande",
     element: <VillaGrande />,
@@ -17,7 +21,6 @@ const router = createBrowserRouter([
     path: "/Recomendaciones",
     element: <Recomendaciones />,
   },
-
   {
     path: "*",
     element: <h1>Error</h1>
