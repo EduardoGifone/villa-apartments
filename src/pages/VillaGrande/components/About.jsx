@@ -3,12 +3,12 @@ import { GoogleMap } from "./GoogleMap"
 
 const About = () => {
   
-  let lat = -71.963832
-  let lng = -13.532968
+  const lat = -13.532968
+  const lng = -71.963832
 
   return (
     <>
-      <div name='about' className='w-full my-32 px-5'>
+      <div name='about' className='w-full mt-32 mb-10 px-5'>
           <div className='max-w-[1240px] mx-auto'>
               <div className='text-center'>
                   <h2 className='text-6xl font-bold'>A dónde irás</h2>
@@ -16,10 +16,10 @@ const About = () => {
               </div>
           </div>
       </div>
-      {/* <GoogleMap className="my-3 -ml-5 h-[18rem] overflow-hidden rounded-xl md:hidden"
+      <GoogleMap className="h-96 max-md:h-56 max-w-[1240px] m-auto rounded-3xl overflow-hidden px-5"
       latitude={lat}
       longitude={lng}
-      /> */}
+      />
     </>
   )
 }
