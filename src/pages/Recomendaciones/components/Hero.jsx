@@ -1,36 +1,23 @@
-import React from 'react'
-import {
-    WifiIcon,
-    DeviceTabletIcon,
-    CakeIcon,
-    FireIcon,
-} from '@heroicons/react/solid'
 
-// import bgImg from '../assets/VillaMini/photo01.jpg'
+
+import bgImg from '../assets/machu-picchu.jpg'
 
 const Hero = () => {
   return (
-    <div name='home' className='w-full h-screen bg-zinc-200 flex flex-col justify-between'>
-        <div className='grid md:grid-cols-2 max-w-[1240px] m-auto'>
-            <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
-                <h1 className='py-3 text-5xl md:text-7xl font-bold'>Villa Mini</h1>
-                <p className='text-2xl'>¡Ven y vive una experiencia inolvidable en el corazón de Cusco!</p>
-                <button className='py-3 px-6 sm:w-[60%] my-4'><a href='https://airbnb.com/h/villaminiapartment' target='_blank' rel='noreferrer'>Más detalles!</a></button>
-            </div>
-            <div>
-                {/* <img className='w-full rounded-xl' src={bgImg} alt="/" /> */}
-            </div>
-            <div className='absolute flex flex-col py-8 md:min-w-[760px] bottom-[5%]
-            mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200
-            border border-slate-300 rounded-xl text-center shadow-xl'>
-                <p>Servicios Destacados</p>
-                <div className='flex justify-between flex-wrap px-4'>
-                    <p className='flex px-4 py-2 text-slate-500'><WifiIcon className='mr-1 h-6 text-yellow-600' /> Wifi Rápido</p>
-                    <p className='flex px-4 py-2 text-slate-500'><CakeIcon className='mr-1 h-6 text-yellow-600' /> Cocina</p>
-                    <p className='flex px-4 py-2 text-slate-500'><FireIcon className='mr-1 h-6 text-yellow-600' /> Agua Caliente</p>
-                    <p className='flex px-4 py-2 text-slate-500'><DeviceTabletIcon className='mr-1 h-6 text-yellow-600' /> Smart TV</p>
-                </div>
-            </div>
+    // <div name='home' className='w-full h-screen bg-zinc-200 flex flex-col justify-between'>
+    //     <div className=' max-w-[1240px] m-auto'>
+    //         <h1 className='py-3 text-5xl md:text-7xl font-bold'>Recomendaciones</h1>
+    //         <p className='text-2xl'>La sección a continuación te ofrece valiosas recomendaciones para aprovechar al máximo tu estancia. Te sugerimos explorar los diversos lugares para comer y sumergirte en la riqueza gastronómica local. Además, no te pierdas la oportunidad de visitar los puntos de interés más destacados de la zona.<br/><br/>Si estás buscando actividades emocionantes y entretenimiento, aquí encontrarás opciones para satisfacer tus intereses. Sin embargo, si deseas una experiencia más profunda y detallada, te recomendamos considerar la asistencia de agencias de turismo locales. Ellos cuentan con conocimientos especializados y pueden ayudarte a crear una experiencia enriquecedora y sin complicaciones.</p>
+    //     </div>
+    // </div>
+    <div name='home' className='w-full h-screen'>
+        <div className='w-full h-screen bg-gray-800/90 absolute'>
+            <img className='w-full h-full object-cover mix-blend-overlay' src={bgImg} alt="/" />
+        </div>
+      
+        <div className='flex flex-col gap-5 text-white relative max-w-[1240px] m-auto pt-72 max-md:pt-56 px-16'>
+            <h1 className='text-6xl max-md:text-5xl font-bold text-white'>Recomendaciones</h1>
+            <p className='text-2xl max-md:text-xl text-justify text-white'>La sección a continuación te ofrece valiosas recomendaciones para aprovechar al máximo tu estancia. Te sugerimos explorar los diversos lugares para comer y sumergirte en la riqueza gastronómica local. Además, no te pierdas la oportunidad de visitar los puntos de interés más destacados de la zona.<br/><br/>Si estás buscando actividades emocionantes y entretenimiento, aquí encontrarás opciones para satisfacer tus intereses. Sin embargo, si deseas una experiencia más profunda y detallada, te recomendamos considerar la asistencia de agencias de turismo locales. Ellos cuentan con conocimientos especializados y pueden ayudarte a crear una experiencia enriquecedora y sin complicaciones.</p>
         </div>
     </div>
   )

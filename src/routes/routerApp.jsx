@@ -2,7 +2,8 @@ import { createBrowserRouter } from "react-router-dom";
 import VillaGrande from "@/pages/VillaGrande";
 import VillaMini from "@/pages/VillaMini";
 import Recomendaciones from "@/pages/Recomendaciones";
-import App from "@/App";
+import App from "@/pages/App";
+
 
 const router = createBrowserRouter([
   {
