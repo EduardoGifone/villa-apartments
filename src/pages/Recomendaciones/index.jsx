@@ -12,7 +12,7 @@ function Recomendaciones() {
       <Hero />
       <About />
       <Support />
-      <AllInOne />
+      {/* <AllInOne /> */}
       <Footer />
     </>
   );

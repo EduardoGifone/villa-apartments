@@ -18,8 +18,8 @@ const Navbar = () => {
         <div className='flex items-center'>
           <h1 className='cursor-pointer text-3xl font-bold mr-4 sm:text-4xl'><Linkk to={'/'} smooth={true} duration={500}>Villa Apartments</Linkk></h1><ul className='hidden md:flex'>
           <li className='cursor-pointer'><Link to="home" smooth={true} duration={500}>Inicio</Link></li>
-          <li className='cursor-pointer'><Link to="about" smooth={true} offset={-200} duration={500}>Lugar</Link></li>
-          <li className='cursor-pointer'><Link to="support" smooth={true} offset={-50} duration={500}>Ambientes</Link></li>
+          <li className='cursor-pointer'><Link to="about" smooth={true} offset={-200} duration={500}>Referencias</Link></li>
+          <li className='cursor-pointer'><Link to="support" smooth={true} offset={-50} duration={500}>Lugares</Link></li>
           {/* <li className='cursor-pointer'><Link to="platforms" smooth={true} offset={-100} duration={500}>Platforms</Link></li>
           <li className='cursor-pointer'><Link to="pricing" smooth={true} offset={-50} duration={500}>Pricing</Link></li> */}
           </ul>
@@ -40,8 +40,8 @@ const Navbar = () => {
 
       <ul className={!nav ? 'hidden' : 'absolute bg-zinc-200 w-full px-8'}>
           <li className='cursor-pointer border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="home" smooth={true} duration={500}>Inicio</Link></li>
-          <li className='cursor-pointer border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="about" smooth={true} offset={-200} duration={500}>Lugar</Link></li>
-          <li className='cursor-pointer border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="support" smooth={true} offset={-50} duration={500}>Ambientes</Link></li>
+          <li className='cursor-pointer border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="about" smooth={true} offset={-200} duration={500}>Referencias</Link></li>
+          <li className='cursor-pointer border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="support" smooth={true} offset={-50} duration={500}>Lugares</Link></li>
           {/* <li className='cursor-pointer border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="platforms" smooth={true} offset={-100} duration={500}>Platforms</Link></li>
           <li className='cursor-pointer border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="pricing" smooth={true} offset={-50} duration={500}>Pricing</Link></li> */}
 
