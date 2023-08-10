@@ -1,4 +1,4 @@
-import React from 'react'
+
 import {
     WifiIcon,
     DeviceTabletIcon,
@@ -15,7 +15,7 @@ const Hero = () => {
             <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
                 <h1 className='py-3 text-5xl md:text-7xl font-bold'>Villa Mini</h1>
                 <p className='text-2xl'>¡Ven y vive una experiencia inolvidable en el corazón de Cusco!</p>
-                <button className='py-3 px-6 sm:w-[60%] my-4'><a href='https://airbnb.com/h/villaminiapartment' target='_blank' rel='noreferrer'>Más detalles!</a></button>
+                <a href='https://airbnb.com/h/villaminiapartment' target='_blank' rel='noreferrer'><button className='py-3 px-40 m-5'>Más detalles!</button></a>
             </div>
             <div>
                 <img className='w-full rounded-xl' src={bgImg} alt="/" />
